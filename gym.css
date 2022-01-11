@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rokkit', sans-serif;
+}
+section{
+    position: static;
+    padding: 100px;
+    display: block;
+    justify-content: space-between;
+    background: #fff;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -40px;
+}
+
+header .logo{
+    position: left;
+    width: 242px;
+    height: 42px;
+    position: relative;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+    z-index: 100;
+}
+header ul li a{
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+}
+header ul li:hover{
+    background: rgba(0,0,0,.15);
+}
+header ul li:hover > ul{
+    display: block;
+}
+header ul li{
+    float: left;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+header ul li a{
+    display: inline-block; 
+    padding: 6px 10px;
+    color: #222; 
+    text-decoration: none;
+}
+header ul ul{
+    display: none;
+    background: #d3eae1;
+    position: absolute; 
+    top: 100%;
+    box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+    border: 2px solid #cbe5d5;
+}
+header ul ul li{
+    float: none; 
+    position: relative;
+}
+header ul ul li a {
+    padding: 6px 10px; 
+    border-bottom: 3px solid rgba(0,0,0,.05);
+}
+header ul ul ul {
+    position: absolute; 
+    left: 100%; 
+    top:0;
+}
+.first{
+    margin-left: 10em;
+    display: flex;
+    top: 0;
+    left: 0;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    padding-right: 80px;
+    margin-bottom: 10em;
+}
+.second{
+    margin-left: 3em;
+    display: flex;
+    top: 0;
+    left: 0;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    padding-right: 80px;
+    margin-bottom: 10em;
+}
+
+.run{
+    color:#89c290 ;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.2px #000;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.so, .so1, .so2, .so3, .so4{
+    margin-top: 15px;
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 500;   
+}
+.content{
+    padding-left: 90px;
+}
+.button-17, .button-18,.button-19,.button-20,.button-21 {
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+   margin-top: 20px;
+  }
+  
+  .button-17, .button-18,.button-19,.button-20,.button-21 :hover {
+    background: #F6F9FE;
+    color: #89c290;
+  }
+  
+  .button-17, .button-18,.button-19,.button-20,.button-21 :active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+  }
+  
+.button-17, .button-18,.button-19,.button-20,.button-21 :focus {
+    outline: none;
+    border: 2px solid #89c290;
+  }
+  .button-17, .button-18,.button-19,.button-20,.button-21 :not(:disabled) {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  
+  .button-17, .button-18,.button-19,.button-20,.button-21 :not(:disabled):hover {
+    box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+  }
+  
+.button-17, .button-18,.button-19,.button-20,.button-21 :not(:disabled):focus {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+ .button-17, .button-18,.button-19,.button-20,.button-21 :not(:disabled):active {
+    box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+  }
+  
+  
+.button-17, .button-18,.button-19,.button-20,.button-21 :disabled {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+
+
+
+
+
+  
