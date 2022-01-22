@@ -1,4 +1,5 @@
- <html lang = "en">
+
+<html lang = "en">
     <head>
         <meta charset = "UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
@@ -10,6 +11,7 @@
 
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -20,146 +22,68 @@
     </head>
     <body>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Rokkit', sans-serif;
-}
-
-section{
-    position: relative;
-    width: 100%;
-    min-height: 90vh;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #fff;
-}
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header .logo{
-    position: left;
-    width: 242px;
-    height: 42px;
-    position: relative;
-}
-header ul{
-    position: relative;
-    display: flex;
-}
-header ul li{
-    list-style: none;
-    z-index: 100;
-}
-header ul li a{
-    display: inline-block;
-    color: #333;
-    text-decoration: none;
-}
-header ul li:hover{
-    background: rgba(0,0,0,.15);
-}
-header ul li:hover > ul{
-    display: block;
-}
-header ul li{
-    float: left;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
-header ul li a{
-    display: inline-block; 
-    padding: 6px 10px;
-    color: #222; 
-    text-decoration: none;
-}
-header ul ul{
-    display: none;
-    background: #d3eae1;
-    position: absolute; 
-    top: 100%;
-    box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
-    border: 2px solid #cbe5d5;
-}
-header ul ul li{
-    float: none; 
-    position: relative;
-}
-header ul ul li a {
-    padding: 6px 10px; 
-    border-bottom: 3px solid rgba(0,0,0,.05);
-}
-header ul ul ul {
-    position: absolute; 
-    left: 100%; 
-    top:0;
-}
- .carousel-control-prev{
-  margin-top:100px;
-  }
- .carousel-control-next{
-  margin-top:100px;
-  }
-  .carousel-inner img {
-  margin-top:100px;
- 
-  }
-</style>
 
 
 
 
 
 
-
-
-
-        <section>
+ <section>
             <header>
-             <nav class="navbar navbar-light bg-light">
-              <a class="navbar-brand" href="#">
-                <img src="852963.jpg" width="242px" height="42px" alt="" loading="lazy">
-              </a>
-             </nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="recipes.html">Recipes</a></li>
-                    <li><a href="#">Fitness</a>
-                        <ul>
+
+
+<nav class="navbar navbar-expand-sm  navbar-dark">
+
+  <a class="navbar-brand" href="#">
+   <img src="852963.jpg" width="242px" height="42px" alt="" loading="lazy">
+  </a>
+  
+
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <li><a href="recipes.html">Recipes</a></li>
+    </li>
+    <li class="nav-item">
+    <li><a href="#">Fitness</a>
+ <ul>
                             <li><a href="gym.html">Gym</a></li>
                             <li><a href="is.html">Indoor Sports</a></li>
                         </ul>
-                    </li>
-                    <li><a href="#">Types of Diet</a>
+    </li>
+    <li class="nav-item">
+     <a href="#">Types of Diet</a>
                         <ul>
                             <li><a href="md.html">The Mediterranean Diet</a></li>
                             <li><a href="pd.html">The Paleo Diet</a></li>
                             <li><a href="kd.html">Keto Diet</a></li>    
                         </ul>
-                    </li>
-                    <li><a href="calorietable.html">Food Calorie Table</a></li>
-                    <li><a href="life.html">Recommendations</a></li>
-                    <li><a href="#">Contacts</a>
+    </li>
+    <li class="nav-item">
+ <li><a href="calorietable.html">Food Calorie Table</a></li>
+    </li>
+
+ <li class="nav-item">
+ <li><a href="life.html">Recommendations</a></li>
+    </li>
+
+
+ <li class="nav-item">
+ <li><a href="#">Contacts</a>
                         <ul>
                             <li><a href="https://t.me/one_jiffy" target="_blank">Aizhan's telegram</a></li>
                             <li><a href="https://t.me/losted0" target="_blank">Asylai's telegram</a></li>
                             <li><a href="#" >Madi's telegram</a></li>
                         </ul>
                     </li>
-                </ul>
+  </ul>
+</nav>
+
+
+
+        
             </header>
  
 
@@ -185,6 +109,16 @@ header ul ul ul {
 
 
 
+
+
+
+
+
+
+<div class="container-fluid">
+  
+
+<div class="slider">
 <div id="demo" class="carousel slide" data-ride="carousel">
   
   <div class="carousel-inner">
@@ -227,70 +161,88 @@ header ul ul ul {
   <a class="carousel-control-next" href="#demo" data-slide="next">
     <span class="carousel-control-next-icon"></span>
   </a>
-</div>                         
+</div>  
+                  
         </section>
-      <div class="container-fluid">
-                <div class="box-2">
+
+
+
+
+
+
+
+<div class="container-fluid">
+<div class="row row-no-padding">
+<div class="col-sm-6">
+           
+                <div class="imgBox-2">
+                <section> 
+                <img src="meditation.jpg">
+     
+</div>
+</div>
+<div class="col-sm-6">
+                    
+                        <h1 class="run-2"><span>Meditation</span><i class="fa fa-heart-o" style="font-size:36px;"></i></h1>
+                        <p class="so-2">This is one of those healthy habits that always used to elude me. Until I really understood what it was. Believe it or not, I used to think meditation was done in a room on a mat, or on a cushion with white sheets billowing. Turns out: not so much.
+                        </p>
+                   
+                </section>
+                </div>  
+       </div>  
+     </div> 
+
+
+
+
+<div class="container-fluid">
+<div class="row row-no-padding">
+<div class="col-sm-6">
+              
                     <div class="imgBox-2">
-                        <section class="third">
-                            <img src="meditation.jpg">
-                    </div>
-                    <div class="content-2">
-                        <h1 class="run-2"><span>Meditation</span></h1>
+                <section>
+                <img src="reading.jpg">
+                
+</div>
+</div>
+<div class="col-sm-6">
+                   <h1 class="run-2"><span>Reading</span><i class="fa fa-book" style="font-size:36px;"></i></h1>
                         <p class="so-2">This is one of those healthy habits that always used to elude me. Until I really understood what it was. Believe it or not, I used to think meditation was done in a room on a mat, or on a cushion with white sheets billowing. Turns out: not so much.
 
                         </p>
                         </section>
-                    </div>
+                    
                 </div>  
+     </div> 
        </div>  
 
-       
 
-
-   <div class="container-fluid">
-         <div class="box-3">
-                    <div class="imgBox-3">
-                        <section class="fourth">
-                            <img src="reading.jpg">
-                    </div>
-                    <div class="content-3">
-                        <h1 class="run-3"><span>Reading</span></h1>
-                        <p class="so-3">For those of you who just don’t have the time to read, I think I can offer you several ways to get this done. You can listen to an audiobook while you commute to work. I’ll bet you knew that one. Did you know, however, that you can double the speed at which the book is read back to you? It really makes a big impact on your consumption levels.
-                        </p>
-                        </section>
-                    </div>
-                </div> 
-
+<div class="container-fluid">
+<div class="row row-no-padding">
+<div class="col-sm-6">
+              
+                    <div class="imgBox-2">
+                <section>
+                <img src="hydrate.jpg">
+                
+</div>
 </div>
 
-   <div class="container-fluid">
-         <div class="box-3">
-                    <div class="imgBox-3">
-                        <section class="fourth">
-                            <img src="rope.jpg">
-                    </div>
-                    <div class="content-3">
-                        <h1 class="run-3"><span>Jump Rope</span></h1>
-                        <p class="so-3">For a few bucks you can get yourself a jump rope that will keep you hopping for hours on end. 
-                        While it might make you feel like a 9-year-old girl on the playground, ask yourself how many husky young ladies 
-                        you see doing double-dutch. A weighted rope can add upper body elements to your skipping, and you can come up with 
-                        a fun little chant as you hop your way slim. 
-                        </p>
-                        </section>
-                    </div>
-                </div> 
-  </div> 
 
 
-         <div class="container-fluid">     
-        <div class="box-3">
-                    <div class="imgBox-3">
-                        <section class="fourth">
-                            <img src="hydrate.jpg">
-                    </div>
-                    <div class="content-3">
-                        <h1 class="run-3"><span>Hydrate yourself every morning</span></h1>
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-sm-6">
+                 <h1 class="run-3"><span>Hydrate yourself every morning</span><i class="fa fa-beer" style="font-size:36px"></i></h1>
                         <p class="so-3">We know it sounds obvious, but keeping your body hydrated is crucial for staying healthy.
 
 Water is essential for bodily functions like transporting nutrients to cells, regulating your temperature and lubricating the joints.4
@@ -298,31 +250,72 @@ Water is essential for bodily functions like transporting nutrients to cells, re
 As well as this though, if losing or maintaining your weight is one of your goals, drinking enough water each day could help.
                         </p>
                         </section>
-                    </div>
-                </div> 
-            </div> 
+                    
+                </div>  
+     </div> 
+       </div>  
 
 
-   <div class="container-fluid">
-         <div class="box-3">
-                    <div class="imgBox-3">
-                        <section class="fourth">
-                            <img src="meal.jpg">
-                    </div>
-                    <div class="content-3">
-                        <h1 class="run-3"><span>Plan your meals in advance</span></h1>
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+<div class="row row-no-padding">
+<div class="col-sm-6">
+              
+                    <div class="imgBox-2">
+                <section>
+                <img src="rope.jpg">
+                
+</div>
+</div>
+<div class="col-sm-6">
+                   
+                       <h1 class="run-3"><span>Jump Rope</span><i class="fa fa-male" style="font-size:36px"></i></h1>
+                        <p class="so-3">For a few bucks you can get yourself a jump rope that will keep you hopping for hours on end. 
+                        While it might make you feel like a 9-year-old girl on the playground, ask yourself how many husky young ladies 
+                        you see doing double-dutch. A weighted rope can add upper body elements to your skipping, and you can come up with 
+                        a fun little chant as you hop your way slim. 
+                        </p>
+                        </section>
+                    
+                </div>  
+     </div> 
+       </div>  
+    
+
+
+<div class="container-fluid">
+<div class="row row-no-padding">
+<div class="col-sm-6">
+              
+                    <div class="imgBox-2">
+               <section>
+                <img src="meal.jpg">
+                
+</div>
+</div>
+<div class="col-sm-6">
+                    <h1 class="run-3"><span>Plan your meals in advance</span><i class="fa fa-cutlery" style="font-size:36px"></i></h1>
                         <p class="so-3">Being organised is key, so the best thing to do before you write your shopping list is to flick through a recipe book to inspire yourself and then choose a few to try in the week.
 
 From breakfast right through to dinner, planning your meals in advance may help you to avoid the temptation of getting a takeaway or eating ready meals, as you’ll know you have all the ingredients to cook something tasty for yourself.
                         </p>
                         </section>
-                    </div>
-                </div> 
-            </div> 
+                    
+                </div>  
+     </div> 
+       </div>  
 
 
 
-
+                       
+                        
 
 
 
@@ -440,7 +433,7 @@ From breakfast right through to dinner, planning your meals in advance may help 
     font-weight: bolder;
 }
 .so-2{
-    margin-top: 15px;
+   
     color: #000;
     font-size: 1.1em;
     font-weight: 500;   
@@ -542,11 +535,36 @@ From breakfast right through to dinner, planning your meals in advance may help 
     font-weight: 500;   
     
 }
+
+
+
+
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-blue-text {
+color: #0A38F5;
+}
+.dark-pink-text {
+color: #AC003A;
+}
+.dark-amber-text {
+color: #ff6f00;
+}
+.dark-teal-text {
+color: #004d40;
+}
+
+
+
+
 section{
     position: relative;
     width: 100%;
-    min-height: 90vh;
-    padding: 100px;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -630,6 +648,28 @@ header ul ul ul {
   margin-top:100px;
  
   }
+.container-fluid{
+
+margin-bottom: -150px;
+}
+.slider{
+margin-bottom:180px;
+}
+
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </body>
 </html>
