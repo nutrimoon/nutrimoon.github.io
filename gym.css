@@ -12,107 +12,76 @@ section{
     justify-content: space-between;
     background: #fff;
 }
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: -40px;
-}
 
-header .logo{
-    position: left;
-    width: 242px;
-    height: 42px;
-    position: relative;
-}
-header ul{
-    position: relative;
-    display: flex;
-}
-header ul li{
-    list-style: none;
-    z-index: 100;
-}
-header ul li a{
-    display: inline-block;
-    color: #333;
-    text-decoration: none;
-}
-header ul li:hover{
-    background: rgba(0,0,0,.15);
-}
-header ul li:hover > ul{
+.a{
+    color:turquoise;
+    font-weight: 500;
+  }
+  a:hover{
+    color:tomato;
+  }
+  .header-background{
+    position: static;
     display: block;
-}
-header ul li{
-    float: left;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
-header ul li a{
-    display: inline-block; 
-    padding: 6px 10px;
-    color: #222; 
-    text-decoration: none;
-}
-header ul ul{
-    display: none;
-    background: #d3eae1;
-    position: absolute; 
-    top: 100%;
-    box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
-    border: 2px solid #cbe5d5;
-}
-header ul ul li{
-    float: none; 
-    position: relative;
-}
-header ul ul li a {
-    padding: 6px 10px; 
-    border-bottom: 3px solid rgba(0,0,0,.05);
-}
-header ul ul ul {
-    position: absolute; 
-    left: 100%; 
-    top:0;
-}
-.first{
-    margin-left: 10em;
-    display: flex;
+    overflow: visible;
     top: 0;
-    left: 0;
-    align-items: center;
-    align-content: center; 
-    justify-content: center; 
-    padding-right: 80px;
-    margin-bottom: 10em;
-}
-.second{
-    margin-left: 3em;
-    display: flex;
-    top: 0;
-    left: 0;
-    align-items: center;
-    align-content: center; 
-    justify-content: center; 
-    padding-right: 80px;
-    margin-bottom: 10em;
-}
+    height: auto;
+    margin-bottom: 50px;
+    flex-direction: column;
+    white-space: normal;
+  }
+  
+  
+.thing {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+      0 5px 15px 0 rgba(0,0,0,0.08);
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    
+    border-left: 0 solid #00ff99;
+    transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+  }
+  
+  .thing:hover {
+    padding-left: 0.5rem;
+    border-left: 0.5rem solid #00ff99;
+  }
+  
+  
+  
+  .heading {
+    color: #fff;
+  }
+  
 
-.run{
+#run, #run-1, #run-2, #run-3, #run-4{
     color:#89c290 ;
     text-transform: uppercase;
     -webkit-text-stroke: 0.2px #000;
     font-size: 35px;
     font-weight: bolder;
 }
-.so, .so1, .so2, .so3, .so4{
+.PIE{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 30px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold; 
+}
+.PIE1{
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 500;   
+}
+#so, #so1, #so2, #so3, #so4{
     margin-top: 15px;
     color: #000;
     font-size: 1.1em;
@@ -121,7 +90,7 @@ header ul ul ul {
 .content{
     padding-left: 90px;
 }
-.button-17, .button-18,.button-19,.button-20,.button-21 {
+.button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 {
     align-items: center;
     appearance: none;
     background-color: #fff;
@@ -156,42 +125,47 @@ header ul ul ul {
    margin-top: 20px;
   }
   
-  .button-17, .button-18,.button-19,.button-20,.button-21 :hover {
+  .button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :hover {
     background: #F6F9FE;
     color: #89c290;
   }
   
-  .button-17, .button-18,.button-19,.button-20,.button-21 :active {
+  .button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :active {
     box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
     outline: none;
   }
   
-.button-17, .button-18,.button-19,.button-20,.button-21 :focus {
+.button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :focus {
     outline: none;
     border: 2px solid #89c290;
   }
-  .button-17, .button-18,.button-19,.button-20,.button-21 :not(:disabled) {
+  .button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :not(:disabled) {
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
   }
   
   
-  .button-17, .button-18,.button-19,.button-20,.button-21 :not(:disabled):hover {
+  .button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :not(:disabled):hover {
     box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
   }
   
-.button-17, .button-18,.button-19,.button-20,.button-21 :not(:disabled):focus {
+.button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :not(:disabled):focus {
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
   }
   
- .button-17, .button-18,.button-19,.button-20,.button-21 :not(:disabled):active {
+ .button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :not(:disabled):active {
     box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
   }
   
   
-.button-17, .button-18,.button-19,.button-20,.button-21 :disabled {
+.button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :disabled {
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
   }
 
+
+
+
+
+  
 
 
 
