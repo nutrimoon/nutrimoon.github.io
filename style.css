@@ -146,7 +146,7 @@ header ul ul ul {
     font-family: sans-serif;
 }
 .carousel-inner{
-    height: 50vh;
+    height: 70%;
     border-radius: 8em;
     overflow: hidden!important;
 }
