@@ -129,6 +129,8 @@ header ul ul ul {
 .recipe.hide{
     display: none;
 }
+.recipe{
+margin-top: 5%}
 .buttons{
     display: flex;
     justify-content: center;
