@@ -125,13 +125,12 @@ header ul ul ul {
 .recipe img{
     width: 300px;
     height: 300px;
+    margin-top: 50px;
 }
 .recipe.hide{
     display: none;
 }
-.recipe{
-margin-top: 50px;
-}
+
 
 .buttons{
     display: flex;
