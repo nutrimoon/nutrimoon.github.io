@@ -144,6 +144,7 @@ header ul ul ul {
 }
 .carousel-inner{
     height: 50vh;
+    border-radius: 8em;
 }
 .main{
     margin-top: 40px;
