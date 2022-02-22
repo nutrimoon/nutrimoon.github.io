@@ -312,4 +312,174 @@ footer section{
     text-align: center;
     padding: 10px;
 }
+.a{
+    color:turquoise;
+    font-weight: 500;
+  }
+  a:hover{
+    color:tomato;
+  }
+  .header-background{
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    margin-bottom: 50px;
+    flex-direction: column;
+    white-space: normal;
+  }
+  
+  
+.thing {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+      0 5px 15px 0 rgba(0,0,0,0.08);
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    
+    border-left: 0 solid #00ff99;
+    transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+  }
+  
+  .thing:hover {
+    padding-left: 0.5rem;
+    border-left: 0.5rem solid #00ff99;
+  }
+  
+  
+  
+  .heading {
+    color: #fff;
+  }
+  
+
+#run, #run-1, #run-2, #run-3, #run-4{
+    color:#89c290 ;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.2px #000;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.PIE{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 30px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold; 
+}
+.PIE1{
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 500;   
+}
+#so, #so1, #so2, #so3, #so4{
+    margin-top: 15px;
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 500;   
+}
+.content{
+    padding-left: 90px;
+}
+.button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 {
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+   margin-top: 20px;
+  }
+  
+  .button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :hover {
+    background: #F6F9FE;
+    color: #89c290;
+  }
+  
+  .button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+  }
+  
+.button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :focus {
+    outline: none;
+    border: 2px solid #89c290;
+  }
+  .button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :not(:disabled) {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  
+  .button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :not(:disabled):hover {
+    box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+  }
+  
+.button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :not(:disabled):focus {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+ .button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :not(:disabled):active {
+    box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+  }
+  
+  
+.button-17, .button-18,.button-19,.button-20,.button-26,.button-25,.button-26 :disabled {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+
+
+  .column-right .paragraph{
+    margin-top: 15px;
+    padding: 1rem 3rem 1rem 0rem;
+    line-height: 1.4;
+    text-align: justify;
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 500; 
+  }
+  .column-right{
+    padding-left: 100px;
+  }
+  .fonttext{
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .para{
+    font-family:'Poppins', sans-serif;
+    line-height: 25px;
+    padding: 7px 15px 5px 15px;
+  }
 
