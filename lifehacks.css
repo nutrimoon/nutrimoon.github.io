@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,8 +9,8 @@
 }
 
   .carousel-inner img {
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 140%;
     margin-bottom: 50px;
   }
 
@@ -35,10 +37,10 @@ a:hover{
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 80%;
-    height: 400px;
+    width: 85%;
+    height: 500px;
     margin-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
    
   }
   
@@ -233,3 +235,24 @@ cite {
 }
 
   
+.column-right .paragraph{
+  margin-top: 15px;
+  padding: 1rem 3rem 1rem 0rem;
+  line-height: 1.4;
+  text-align: justify;
+  color: #000;
+  font-size: 1.1em;
+  font-weight: 500; 
+}
+.column-right{
+  padding-left: 100px;
+}
+.fonttext{
+  padding-top: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.para{
+  font-family:'Poppins', sans-serif;
+  line-height: 25px;
+  padding: 7px 15px 5px 15px;
+}
