@@ -143,7 +143,7 @@ header ul ul ul {
     font-family: sans-serif;
 }
 .carousel-inner{
-    height: 80%;
+    height: 50vh;
 }
 .main{
     margin-top: 40px;
