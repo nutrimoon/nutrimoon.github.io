@@ -236,7 +236,7 @@ footer section{
         width: 100vw;
         margin: 0 auto;
     }
-    left carousel-control{
+    .carousel-control.left{
     background-image: none;
 }
     .logo img{
