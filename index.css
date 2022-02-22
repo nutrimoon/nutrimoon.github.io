@@ -64,7 +64,10 @@ a:hover{
     line-height: 25px;
     padding: 7px 15px 5px 15px;
 }
-
+.txt{
+    text-align: center;
+    align-items: center;
+}
     
 
 
