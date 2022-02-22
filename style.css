@@ -236,6 +236,9 @@ footer section{
         width: 100vw;
         margin: 0 auto;
     }
+    .carousel-control.left, .carousel-control.right {
+    background-image: none
+}
     .logo img{
         position: left;
         width: 342px;
