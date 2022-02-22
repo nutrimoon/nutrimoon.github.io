@@ -196,6 +196,7 @@ header ul ul ul {
 .products li{
     text-decoration: none;
     list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 footer{
     margin-top: 50px;
