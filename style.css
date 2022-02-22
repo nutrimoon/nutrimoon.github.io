@@ -130,7 +130,9 @@ header ul ul ul {
     display: none;
 }
 .recipe{
-margin-top: 5%}
+margin-top: 5%;
+}
+
 .buttons{
     display: flex;
     justify-content: center;
