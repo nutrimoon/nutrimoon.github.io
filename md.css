@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Rokkit', sans-serif;
+    position: static;
 }
 .html{
     scroll-behavior: smooth;
@@ -20,52 +23,9 @@
 a:hover{
     color:tomato;
 }
-.a-container .md1{
-    float: left;
-    margin-right: 90px;
-    margin-left: 70px;
-    width: 400px;
-}
-.textbox1{
-    position: flex;
-    width: 100%;
-    margin-top: 50px;
-    
-}
-.textbox1 .h21{
-    font-size: 2.5em;
-}
-.textbox1 .p1{
-    font-size: 1.1em;
-    text-align: justify;
-    margin-right: 60px;
-}
-.b-container .md2{
-    float: right;
-    width: 420px;
-    margin-right: 60px;
-    margin-bottom: 20px;
-    border-radius: 3em;
-    margin-left: 30px;
-}
-.textbox2{
-    position: justify;
-    width: 100%;
-    margin-left: 20px;
-}
-.container2 .textbox2 .h22{
-    font-size: 2em;
-}
-.container2 .textbox2 .p2{
-    padding-top: 10px;
-    font-size: 1.1em;
-    text-align: justify;
-    margin-right: 30px;
-}
-.ul2{
-    font-size: 1em;
-}
-.li2{
-    font-size: 1.1em;
+.f4{
+  text-align: justify;
+  padding-right: 60px;
+  padding-top: 25px;
 }
 
